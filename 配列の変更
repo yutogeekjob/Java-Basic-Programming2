@@ -1,0 +1,23 @@
+<%-- 
+    Document   : Array
+    Created on : 2017/03/30, 14:24:38
+    Author     : yuto
+--%>
+<%
+ String Array[]={"10","100","soeda","hayashi","-20","118","END"};
+ Array[2]="33";
+ for(int i=0;i<Array.length;i++){
+ out.println(Array[i]);
+ }
+%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        <h1></h1>
+    </body>
+</html>
